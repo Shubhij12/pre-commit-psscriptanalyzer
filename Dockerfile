@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/powershell:lts-alpine-3.14
+FROM mcr.microsoft.com/powershell:lts-alpine-3.16
 
 COPY PSScriptAnalyzer-wrapper.ps1 /usr/local/bin/
 RUN chmod 0755 /usr/local/bin/PSScriptAnalyzer-wrapper.ps1 && \
